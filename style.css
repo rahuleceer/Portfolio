@@ -9,6 +9,10 @@
   --mix: #54bab9;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
