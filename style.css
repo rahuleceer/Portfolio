@@ -137,8 +137,10 @@ header nav {
 
 /* about */
 .about-img{
-    margin-right: 11rem;
+    flex:1;
+    margin-left: 5rem;
 }
+
 
 .about-img img{
   box-shadow: 3px 6px 23px -1px var(--dark);
@@ -146,7 +148,7 @@ header nav {
 }
 
 .about-data{
-  width: 40%;
+  flex: 1;
 }
 
 .about-data h1 {
@@ -167,4 +169,100 @@ header nav {
   margin: 3px;
   margin-top: 6px;
   margin-left: 0;
+}
+
+/* footer  */
+footer{
+   background-color: var(--dark);
+   color: var(--pure);
+   clip-path: polygon(0 0, 100% 16%, 100% 100%, 0% 100%);
+}
+
+footer .container{
+  padding: 3rem;
+}
+
+form{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+label{
+  margin: 0.5rem;
+}
+input{
+  margin: 0.5rem;
+  padding: 0.3rem;
+  border-style: none;
+  background-color: var(--dark);
+  font-size: 1rem;
+  border-bottom: 1px solid var(--light);
+}
+
+input:focus{
+  color: var(--pure);
+}
+input:hover{
+  border-color: green;
+  border-width: 2px;
+}
+
+textarea{
+  margin: 0.5rem;
+  padding: 0.3rem;
+  border-style: none;
+  background-color: var(--dark);
+  font-size: 1rem;
+  border-bottom: 1px solid var(--light);
+}
+
+textarea:focus{
+  color: var(--pure);
+}
+textarea:hover{
+  border-color: green;
+  border-width: 2px;
+}
+
+footer .btn{
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+
+
+@keyframes color-changer {
+  0%{
+    color: var(--primary);
+  }
+  10%{
+    color: #b83987;
+  }
+  20%{
+    color: #7a39b8;
+  }
+  30%{
+    color: #4e39b8;
+  }
+  40%{
+    color: #3997b8;
+  }
+  50%{
+    color:#39b8a6;
+  }
+  60%{
+    color: #39b86d;
+  }
+  70%{
+    color:#7ab839;
+  }
+  80%{
+    color: #b8ad39;
+  }
+  90%{
+    color: #b88b39;
+  }
+  100%{
+    color: #b85939;
+  }
 }

@@ -30,6 +30,7 @@
 
 .btn-primary {
   background-color: var(--primary);
+  color: var(--dark);
 }
 
 .btn-primary:hover {
